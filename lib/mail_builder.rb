@@ -1,5 +1,9 @@
 # encoding: utf-8
 
+require 'action_view'
+require 'mail'
+require 'nokogiri'
+
 class MailBuilder
   
   def initialize(identifier_or_path,with_images = true)

@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "mailbuilder"
   gem.homepage = "http://github.com/bjornblomqvist/mailbuilder"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A simple ERB template mail builder}
+  gem.description = %Q{A simple ERB template mail builder. It creates an email with inline images. Very nice =)}
   gem.email = "darwin.git@marianna.se"
   gem.authors = ["Darwin"]
   # dependencies defined in Gemfile
