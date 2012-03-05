@@ -1,6 +1,8 @@
 = mailbuilder
 
-Description goes here.
+A simple ERB based email template thingy! The nice thing is that it inlines the images =).
+
+Created a gem as it was getting boring copying this to new projects.
 
 == Contributing to mailbuilder
  

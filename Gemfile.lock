@@ -59,9 +59,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionpack
+  actionpack (>= 3.0.0)
   bundler
   jeweler (~> 1.6.4)
-  mail
-  nokogiri
+  mail (~> 2.4.0)
+  nokogiri (~> 1.5.0)
   shoulda

@@ -1,8 +1,8 @@
 source "http://rubygems.org"
 
-gem 'mail'
-gem "actionpack"
-gem 'nokogiri'
+gem 'mail', "~> 2.4.0"
+gem "actionpack", ">= 3.0.0"
+gem 'nokogiri', "~> 1.5.0"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
