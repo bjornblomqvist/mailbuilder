@@ -101,18 +101,6 @@ class MailBuilder
     
   end
   
-  def get_demo_html
-    Dir.chdir @path do
-      return read_file_or_template("#{@basename}.html", eval(File.read("locals.rb") || "{}"))
-    end
-  end
-  
-  def get_demo_text
-    Dir.chdir @path do
-      return read_file_or_template("#{@basename}.txt", eval(File.read("locals.rb") || "{}"))
-    end
-  end
-  
   def read_file_or_template(filename, locals = {})
     if File.exists?(filename)
       File.read(filename)
