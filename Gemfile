@@ -8,6 +8,5 @@ gem 'nokogiri', ">= 1.5.0"
 # Include everything needed to run rake, tests, features, etc.
 group :development do
   gem "shoulda"
-  gem "bundler"
-  gem "jeweler", "~> 1.6.4"
+  gem "jeweler"
 end
